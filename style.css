@@ -23,6 +23,7 @@ body{
     padding: 10px 10%;
 
 }
+
 nav{
     display: flex;
     align-items:center;
@@ -77,7 +78,6 @@ nav ul li a:hover::after{
     
 }
 #pic1{
-
     height: 35rem;
 }
 .row{
@@ -308,8 +308,9 @@ nav .fas{
     #header{
         background-image: url(images/myphone-background.png);
     }
+    
     .header-text{
-        margin-top:100%;
+        margin-top:60%;
         font-size:16px;
     }
     .header-text h1{
@@ -357,11 +358,19 @@ nav .fas{
         margin-right: 20px;
      }
      .contact-left, .contact-right{
-        flex-basis: 100;
+        flex-basis: 100%;
      }
      .copyright{
         font-size: 14px;
      }
+
+     #pic1{
+        height: 25rem;
+        display: block;
+        margin: auto;
+    }
+
+    
 
 }
     #msg{
